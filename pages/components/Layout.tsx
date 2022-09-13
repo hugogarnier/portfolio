@@ -14,7 +14,7 @@ export const Layout: NextPage<LayoutProps> = ({ children }) => {
         <meta name="description" content="Portfolio Hugo Garnier" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="max-w-3xl m-auto p-4 min-h-[90vh]">{children}</main>
+      <main className="max-w-3xl m-auto p-4 min-h-[83vh]">{children}</main>
       <Footer />
     </>
   );
