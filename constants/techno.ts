@@ -6,15 +6,23 @@ export type TechnoType = {
 export const TECHNO = [
   {
     name: 'nextJS',
-    color: 'blue'
+    color: '#1e3a8a'
   },
   {
     name: 'tailwindCSS',
-    color: 'green'
+    color: '#15803d'
   },
   {
-    name: 'javascript',
-    color: 'green'
+    name: 'react-native',
+    color: '#facc15'
+  },
+  {
+    name: 'expo',
+    color: '#991b1b'
+  },
+  {
+    name: 'remix',
+    color: '#171717'
   },
 
 ]
