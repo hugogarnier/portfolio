@@ -1,18 +1,19 @@
-import type { NextPage } from "next";
+import type {NextPage} from "next";
 import Link from "next/link";
-import { useTheme } from "next-themes";
+import {useTheme} from "next-themes";
 
-import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
+import {MoonIcon, SunIcon} from "@heroicons/react/24/outline";
 
 export const Navbar: NextPage = () => {
-  const { theme, setTheme } = useTheme();
+  const {theme, setTheme} = useTheme();
 
   const switchTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
 
   return (
-    <nav className="flex items-center justify-between max-w-3xl p-4 mx-auto text-sm font-medium text-gray-600 dark:text-gray-100 cursor-pointer">
+    <nav
+      className="flex items-center justify-between max-w-4xl p-4 mx-auto text-sm font-medium text-gray-600 dark:text-gray-100 cursor-pointer">
       <ul className="flex items-center space-x-3">
         <li className="">
           <Link href="/">
