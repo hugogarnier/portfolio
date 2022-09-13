@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
+import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
+
 export const Navbar: NextPage = () => {
   const { theme, setTheme } = useTheme();
 
@@ -34,16 +36,9 @@ export const Navbar: NextPage = () => {
         </li>
       </ul>
       {(theme === "light" && (
-        <p className="rounded-lg hover:text-blue-700" onClick={switchTheme}>
-          dark
-        </p>
+        <MoonIcon className="w-6 h-6 hover:text-blue-700" onClick={switchTheme}/>
       )) || (
-        <p
-          className="rounded-lg dark:hover:text-orange-600"
-          onClick={switchTheme}
-        >
-          light
-        </p>
+        <SunIcon className="w-6 h-6 hover:text-orange-600" onClick={switchTheme}/>
       )}
     </nav>
   );
