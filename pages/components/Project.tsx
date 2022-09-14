@@ -9,11 +9,11 @@ type ProjectProps = {
   link?: string;
 };
 
-const Project: NextPage<ProjectProps> = ({platform = 'desktop', title, description, link}) => {
+const Project: NextPage<ProjectProps> = ({platform = '', title, description, link}) => {
   return (
     <>
       <a
-        className="group block mx-8 p-4 w-full rounded-lg hover:bg-gray-50 dark:hover:bg-slate-800 transition-all"
+        className="group block p-4 w-full rounded-lg hover:bg-gray-50 dark:hover:bg-slate-800 transition-all"
         href={link && link || ""}
         target="_blank"
         rel="noopener noreferrer"
