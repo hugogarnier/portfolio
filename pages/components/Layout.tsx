@@ -1,11 +1,13 @@
 import type {NextPage} from "next";
-import {Navbar} from "./Navbar";
-import {Footer} from "./Footer";
 import Head from "next/head";
+
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+
 
 type LayoutProps = { children: React.ReactNode };
 
-export const Layout: NextPage<LayoutProps> = ({children}) => {
+const Layout: NextPage<LayoutProps> = ({children}) => {
   return (
     <>
       <Navbar/>
@@ -19,3 +21,5 @@ export const Layout: NextPage<LayoutProps> = ({children}) => {
     </>
   );
 };
+
+export default Layout

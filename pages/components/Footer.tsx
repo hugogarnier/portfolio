@@ -1,7 +1,7 @@
 import type {NextPage} from "next";
 import Link from "next/link";
 
-export const Footer: NextPage = () => {
+const Footer: NextPage = () => {
   return (
     <footer className="flex items-center justify-between max-w-4xl p-4 m-auto text-gray-600 dark:text-gray-100">
       <div>
@@ -63,3 +63,5 @@ export const Footer: NextPage = () => {
     </footer>
   );
 };
+
+export default Footer

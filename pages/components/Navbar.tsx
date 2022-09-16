@@ -4,7 +4,7 @@ import {useTheme} from "next-themes";
 
 import {MoonIcon, SunIcon} from "@heroicons/react/24/outline";
 
-export const Navbar: NextPage = () => {
+const Navbar: NextPage = () => {
   const {theme, setTheme} = useTheme();
 
   const switchTheme = () => {
@@ -45,3 +45,5 @@ export const Navbar: NextPage = () => {
     </nav>
   );
 };
+
+export default Navbar
