@@ -18,17 +18,18 @@ export const Navbar: NextPage = () => {
         <li className="">
           <Link href="/">
             <a
-              className="rounded-lg hover:text-blue-700 dark:hover:text-orange-600"
+              className="transition hover:text-teal-600 dark:hover:text-teal-500"
               href=""
             >
               home
             </a>
+
           </Link>
         </li>
         <li>
           <Link href="/projects">
             <a
-              className="rounded-lg hover:text-blue-700 dark:hover:text-orange-600"
+              className="rounded-lg hover:text-teal-600 dark:hover:text-teal-500"
               href=""
             >
               projects
@@ -37,9 +38,9 @@ export const Navbar: NextPage = () => {
         </li>
       </ul>
       {(theme === "light" && (
-        <MoonIcon className="w-6 h-6 hover:text-blue-700" onClick={switchTheme}/>
+        <MoonIcon className="w-6 h-6 hover:text-teal-600" onClick={switchTheme}/>
       )) || (
-        <SunIcon className="w-6 h-6 hover:text-orange-600" onClick={switchTheme}/>
+        <SunIcon className="w-6 h-6 hover:text-teal-500" onClick={switchTheme}/>
       )}
     </nav>
   );

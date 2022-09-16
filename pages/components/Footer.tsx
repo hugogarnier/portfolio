@@ -6,7 +6,7 @@ export const Footer: NextPage = () => {
     <footer className="flex items-center justify-between max-w-4xl p-4 m-auto text-gray-600 dark:text-gray-100">
       <div>
         <Link href="/">
-          <a className="hover:text-blue-700 dark:hover:text-orange-600">
+          <a className="hover:text-teal-600 dark:hover:text-teal-500">
             Hugo Garnier
           </a>
         </Link>
@@ -21,7 +21,7 @@ export const Footer: NextPage = () => {
           href="https://github.com/hugogarnier"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-700 dark:hover:text-orange-600 mr-2"
+          className="hover:text-teal-600 dark:hover:text-teal-500 mr-2"
           title="Github"
         >
           <svg
@@ -42,7 +42,7 @@ export const Footer: NextPage = () => {
           href="https://www.linkedin.com/in/hugogarnier/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-700 dark:hover:text-orange-600"
+          className="hover:text-teal-600 dark:hover:text-teal-500"
           title="Linkedin"
         >
           <svg
