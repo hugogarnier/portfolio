@@ -17,7 +17,7 @@ function MyApp({Component, pageProps}: AppProps) {
   }
 
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class" enableSystem>
       <Layout>
         <Component {...pageProps} />
       </Layout>

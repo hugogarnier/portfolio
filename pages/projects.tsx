@@ -17,8 +17,8 @@ const Projects: NextPage = () => {
                  link="https://expo.dev/@hugo0/Airbnb-clone" platform='mobile'/>
         <Project title="basket stats" description='website with french basket stats and test Remix'
                  link="https://basket.hugogarnier.com/"/>
-        <Project title="marvel" description='project from Le Reacteur showing some comics marvel'
-                 link="https://marvel.hugogarnier.com/"/>
+        {/*<Project title="marvel" description='project from Le Reacteur showing some comics marvel'*/}
+        {/*         link="https://marvel.hugogarnier.com/"/>*/}
         <Project title="talkie"
                  description='social app based on talk. A talkie is a combination of a recorder and a gif.'
                  link="https://github.com/hugogarnier/talkie" platform='desktop'/>

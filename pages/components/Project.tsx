@@ -20,9 +20,9 @@ const Project: NextPage<ProjectProps> = ({platform = '', title, description, lin
       >
         <div
           className="flex justify-between items-center gap-2 mb-2 group-hover:transition-all">
-          <h3 className="text-xl font-bold break-words">
+          <h2 className="text-xl font-bold break-words">
             {title}
-          </h3>
+          </h2>
           {platform === 'mobile' && <DevicePhoneMobileIcon
                   className="h-5 w-5 group-hover:transition-all group-hover:text-teal-600 dark:group-hover:text-teal-500"/> ||
               <ComputerDesktopIcon
