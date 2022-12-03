@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import type {AppProps} from "next/app";
+import { Analytics } from '@vercel/analytics/react';
 import {ThemeProvider} from "next-themes";
 
 import Layout from "./components/Layout";
@@ -20,6 +21,7 @@ function MyApp({Component, pageProps}: AppProps) {
     <ThemeProvider attribute="class" enableSystem>
       <Layout>
         <Component {...pageProps} />
+        <Analytics/>
       </Layout>
     </ThemeProvider>
   );
