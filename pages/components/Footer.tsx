@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import { contacts } from '../constants/contacts';
+import { contacts } from '../../constants/contacts';
 
 const Footer: NextPage = () => {
   return (

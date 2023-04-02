@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import { projects } from '../constants/projects';
+import { projects } from '../../constants/projects';
 
 const Projects: NextPage = () => {
   return (

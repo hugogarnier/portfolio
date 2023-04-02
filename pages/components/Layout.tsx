@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { Logo } from '../../assets/svg/Logo';
 import { useTheme } from 'next-themes';
-import { colors } from '../constants/colors';
+import { colors } from '../../constants/colors';
 
 type LayoutProps = { children: ReactNode };
 
