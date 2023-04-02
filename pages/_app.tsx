@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
-import { ThemeProvider } from 'next-themes';
+import { ThemeProvider, useTheme } from 'next-themes';
 
 import Layout from './components/Layout';
 import '../styles/globals.css';
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <ThemeProvider attribute="class" enableSystem>
+    <ThemeProvider attribute="class" forcedTheme="light">
       <Layout>
         <Component {...pageProps} />
         <Analytics />

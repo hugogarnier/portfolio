@@ -12,6 +12,7 @@ const Projects: NextPage = () => {
             <Link
               key={project.id}
               href={project.uri}
+              target="_blank"
               className="hover:text-neutral-400 dark:hover:text-gray-500 transition-colors duration-500"
             >
               {project.title}

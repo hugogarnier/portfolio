@@ -18,6 +18,12 @@ a {
     box-sizing: border-box;
 }
 
+@layer base{
+    body {
+        @apply dark:bg-darkText bg-lightText
+    }
+}
+
 
 @media (prefers-color-scheme: dark) {
     html {
@@ -25,7 +31,9 @@ a {
     }
 
     body {
-        color: white;
-        background: black;
+        color: #E6E6E6;
+        background: #0C0C0C;
     }
 }
+
+

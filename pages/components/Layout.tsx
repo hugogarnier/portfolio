@@ -9,7 +9,7 @@ import { colors } from '../constants/colors';
 type LayoutProps = { children: ReactNode };
 
 const Layout: NextPage<LayoutProps> = ({ children }) => {
-  const { systemTheme } = useTheme();
+  const { resolvedTheme, systemTheme } = useTheme();
   const isThemeDark = systemTheme === 'dark';
 
   return (
