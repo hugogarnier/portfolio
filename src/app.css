@@ -1,0 +1,60 @@
+:root {
+	--background-light: #ffffff;
+	--background-dark: #0c0c0c;
+	--background-grey: #434343;
+	--grey: #949494;
+	--grey-light: #b4b4b4;
+	--aqua: #00cfaa;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+a {
+	text-decoration: none;
+	color: var(--background-dark);
+}
