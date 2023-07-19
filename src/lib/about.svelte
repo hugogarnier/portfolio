@@ -5,12 +5,6 @@
 		I specialize in mobile interface and web-based applications with a focus on simplicity and
 		usability.
 	</p>
-	<p>
-		I’m currently working at <a href="https://www.coinhouse.com/" target="_blank">Coinhouse</a>
-		where I am developing the mobile application. Before Coinhouse, I worked at
-		<a href="https://www.meilleurtaux.com/" target="_blank">Meilleurtaux</a> where I helped building
-		3 applications.
-	</p>
 </section>
 
 <style lang="scss">
@@ -32,31 +26,5 @@
 	p {
 		font-size: 1rem;
 		color: var(--grey);
-	}
-
-	a {
-		position: relative;
-		color: var(--grey);
-
-		&::after {
-			position: absolute;
-			content: '';
-			height: 3px;
-			bottom: -3px;
-			left: 0;
-			right: 0;
-			width: 100%;
-			background: var(--grey-light);
-
-			-o-transition: 0.5s;
-			-ms-transition: 0.5s;
-			-moz-transition: 0.5s;
-			-webkit-transition: 0.5s;
-			transition: 0.5s;
-		}
-
-		&:hover:after {
-			background: var(--aqua);
-		}
 	}
 </style>

@@ -18,7 +18,7 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		margin-top: 6rem;
+		margin-top: 12rem;
 	}
 	.social {
 		display: flex;
