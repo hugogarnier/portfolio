@@ -1,10 +1,13 @@
 :root {
 	--background-light: #ffffff;
+	--background-grey-hover-light: #e1e1e1;
 	--background-dark: #0c0c0c;
 	--background-grey: #434343;
+	--background-project: #fafafa;
 	--grey: #949494;
 	--grey-light: #b4b4b4;
 	--aqua: #00cfaa;
+	--stroke: #cccccc;
 }
 
 *,
@@ -21,6 +24,8 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Roboto Mono', sans-serif;
+	color: var(--background-dark);
+	background-color: var(--background-light);
 }
 
 img,
@@ -57,4 +62,14 @@ h6 {
 a {
 	text-decoration: none;
 	color: var(--background-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: var(--background-light);
+		background-color: var(--background-dark);
+	}
+	a {
+		color: var(--background-light);
+	}
 }

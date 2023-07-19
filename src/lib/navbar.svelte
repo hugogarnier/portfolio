@@ -11,17 +11,17 @@
 	];
 </script>
 
-<div class="topbar">
-	<a href="/" class="navbar-brand">hg.</a>
+<header>
+	<a href="/" class="brand">hg.</a>
 	<nav>
 		{#each navItems as item}
 			<a href={item.href}>{item.label}</a>
 		{/each}
 	</nav>
-</div>
+</header>
 
 <style lang="scss">
-	.topbar {
+	header {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -41,7 +41,7 @@
 		border-bottom-color: #eaeaea;
 	}
 
-	.topbar:before {
+	header:before {
 		content: '';
 		position: absolute;
 		top: -4px;
@@ -51,7 +51,7 @@
 		background: var(--aqua);
 	}
 
-	.navbar-brand {
+	.brand {
 		font-size: 1rem;
 		font-weight: 600;
 	}
@@ -64,6 +64,31 @@
 
 		:last-child {
 			margin-left: 1rem;
+		}
+
+		a {
+			position: relative;
+
+			&::after {
+				position: absolute;
+				content: '';
+				height: 2px;
+				bottom: -9px;
+				left: 0;
+				right: 0;
+				width: 0%;
+				background: var(--aqua);
+
+				-o-transition: 0.5s;
+				-ms-transition: 0.5s;
+				-moz-transition: 0.5s;
+				-webkit-transition: 0.5s;
+				transition: 0.5s;
+			}
+
+			&:hover:after {
+				width: 100%;
+			}
 		}
 	}
 </style>
