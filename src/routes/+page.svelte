@@ -4,6 +4,16 @@
 	import Contact from '$lib/contact.svelte';
 </script>
 
-<About />
-<Contact />
-<Projects />
+<div>
+	<About />
+	<Contact />
+</div>
+<div>
+	<Projects />
+</div>
+
+<style>
+	div {
+		height: 100vh;
+	}
+</style>

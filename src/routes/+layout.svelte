@@ -4,6 +4,11 @@
 	import Navbar from '$lib/navbar.svelte';
 </script>
 
+<svelte:head>
+	<meta name="robots" content="noindex nofollow" />
+	<title>hg. developer</title>
+</svelte:head>
+
 <div class="app">
 	<Navbar />
 	<main>
@@ -16,7 +21,7 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
+		min-height: 100dvh;
 	}
 	main {
 		flex: 1;

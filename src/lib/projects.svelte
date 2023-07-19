@@ -18,7 +18,7 @@
 			description:
 				'Web application for creating and managing photo contests. An admin section is also available.',
 			logo: '/images/test.jpg',
-			url: 'https://github.com/hugogarnier/killer-app#readme'
+			url: 'https://github.com/hugogarnier/contest-photo#readme'
 		}
 	];
 </script>
@@ -39,7 +39,8 @@
 
 <style lang="scss">
 	section {
-		margin-top: 5rem;
+		margin-top: 8rem;
+		scroll-margin-top: 6rem;
 	}
 
 	.card {
@@ -90,9 +91,14 @@
 	@media (prefers-color-scheme: dark) {
 		.card {
 			background-color: var(--background-grey);
-
 			&:hover {
 				background-color: var(--grey);
+				h1 {
+					color: var(--background-dark);
+				}
+				p {
+					color: var(--background-dark);
+				}
 			}
 		}
 	}
