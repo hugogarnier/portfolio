@@ -18,7 +18,7 @@
 			description:
 				'Web application for creating and managing photo contests. An admin section is also available.',
 			logo: '/images/test.jpg',
-			url: 'https://github.com/hugogarnier/killer-app#readme'
+			url: 'https://github.com/hugogarnier/contest-photo#readme'
 		}
 	];
 </script>
