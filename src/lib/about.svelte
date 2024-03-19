@@ -1,6 +1,6 @@
 <section id="about">
 	<h1>Mobile & Web Developer, implementing thoughtful, intuitive interfaces.</h1>
-	<p>I’m Hugo Garnier, a French based Developer with over 2 years of experience in development.</p>
+	<p>I’m Hugo Garnier, a French based Developer with over 3 years of experience in development.</p>
 	<p>
 		I specialize in mobile interface and web-based applications with a focus on simplicity and
 		usability.
